@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cricketSaphal - International Cricket Info</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🏏 cricket<span>Saphal</span></h1>
+            <nav>
+                <a href="#live">Live Matches</a>
+                <a href="#fixtures">Upcoming Fixtures</a>
+                <a href="#stats">Stats</a>
+                <a href="#results">Recent Results</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Live Matches -->
+        <section id="live" class="section">
+            <h2>Live Matches</h2>
+            <div class="cards" id="liveMatches">
+                <p class="loading">Fetching live match data...</p>
+            </div>
+        </section>
+
+        <!-- Upcoming Fixtures -->
+        <section id="fixtures" class="section">
+            <h2>Upcoming Fixtures</h2>
+            <div class="cards" id="upcomingFixtures">
+                <p class="loading">Loading upcoming matches...</p>
+            </div>
+        </section>
+
+        <!-- Player/Team Stats -->
+        <section id="stats" class="section">
+            <h2>Top Players & Stats</h2>
+            <div class="cards" id="playerStats">
+                <p class="loading">Loading stats...</p>
+            </div>
+        </section>
+
+        <!-- Recent Results -->
+        <section id="results" class="section">
+            <h2>Recent Results</h2>
+            <div class="cards" id="recentResults">
+                <p class="loading">Fetching recent results...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 cricketSaphal | Built with ❤️ by Saphal Panthi</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
